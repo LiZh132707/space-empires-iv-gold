@@ -1,0 +1,289 @@
+<HTML>
+<HEAD>
+   <TITLE>Current Chapter</TITLE>
+</HEAD>
+<BODY BGCOLOR="#000000" LINK="#66FF66" ALINK="#99FF99" VLINK="#00CC00" text="#FFFFFF">
+<p align="left"><font face="Arial, Helvetica, sans-serif" color="#545A8C" size="+3">Game 
+  Setup - Mechanics Window</font></p>
+<center>
+  <p align="left"><img align=top width="809" height="606" src="screens/GameSetupMechanics.jpg"> 
+  </p>
+  <p align="left">&nbsp;</p>
+  <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Description</font> 
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          window allows you to configure how this game will be played out.</font></td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Controls</font> 
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Play 
+          Style </font></i></td>
+        <td width="77%" height="26"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          selection determines whether this will be a &quot;Hotseat&quot; or &quot;Different 
+          Machines&quot; game. When playing hotseat, all players play on the same 
+          machine. When playing on different machines, each of the players is 
+          on a different computer, possibly in a different location. The game 
+          files will need to be transferred between these machines as the game 
+          progresses. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Turn 
+          Style </font></i></td>
+        <td width="77%" height="26"> 
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This selection 
+            determines how each turn will be played out. There are two options 
+            for game play, Turn Based Movement and Simultaneous Movement. </font></p>
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Turn Based 
+            Movement is the most common type of turn based game where each player 
+            takes their turn moving their ships. When a player completes their 
+            turn, the next player can begin. If players are located on different 
+            machines, then when each player completes their turn, the game will 
+            be saved. This savegame file will need to be sent to the next player 
+            so that they can play their turn, and then send the savegame on again. 
+            </font></p>
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Simultaneous 
+            Movement games are when all of the players of the game take their 
+            turn at the same time. This is most advantageous for multiplayer games 
+            so that each player can take their turn without having to wait for 
+            the previous player. During a simultaneous movement turn, ships do 
+            not move immediately. Players are merely giving their orders to their 
+            ships. When all players complete their turn, the Host (the person 
+            who created the game and runs it) will then process the turns which 
+            is when the orders for the ships are actually executed. </font></p>
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">In a game 
+            on different machines, players will play their turn and then a player 
+            file will be generated. This file will be sent in to the Host, where 
+            with all of the others, it will be processed to execute the ship orders. 
+            When the Host completes execution, a new savegame file will be generated 
+            which is then sent to each of the players for them to begin their 
+            next turn. </font></p>
+        </td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26"><i><font face="Arial, Helvetica, sans-serif"><font color="#FFFFFF">Multiplayer 
+          Game Filename</font></font></i></td>
+        <td width="77%" height="26"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">If 
+          the Play Style for this game is &quot;Different Machines&quot;, then 
+          a multiplayer game filename will need to be entered. This is basically 
+          the filename that you want to use for this game. When a turn is completed, 
+          this name will be used to save the game to. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26"><i><font face="Arial, Helvetica, sans-serif">Save 
+          Game Directory Path</font></i></td>
+        <td width="77%" height="26"><font face="Arial, Helvetica, sans-serif">This 
+          field allows you to enter a location to save games to. This is useful 
+          if you are playing a game over a LAN and want to specify a common location 
+          on the network for all players to save their games to. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Autosave 
+          Frequency </font></i></td>
+        <td width="77%" height="26"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          option allows you to automatically save the game after so many turns. 
+          The save will take place silently in the background after you end your 
+          turn. When you want to load an autosave game, look in the Load Game 
+          Window for files titled AutoSav0 - AutoSave9. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Connection 
+          Type </font></i></td>
+        <td width="77%" height="26"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          option is only available if the current Play Style selection is &quot;Different 
+          Machines&quot; and the Turn Style selection is &quot;Simultaneous Movement&quot;. 
+          When it is enabled, the three choices are as follows:</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26">&nbsp;</td>
+        <td width="77%" height="26"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-1">&quot;Manual 
+          File Moving&quot; - The game that is setup will have the order files 
+          moved by the players themselves (much as it is described in <a href="Game_SimultaneousGames.htm">Simultaneous 
+          Games</a>). </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26">&nbsp;</td>
+        <td width="77%" height="26"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-1">&quot;TCP/IP 
+          Host&quot; - This selection indicates that the game will be played via 
+          the TCP/IP protocol over the internet (or an intranet). The current 
+          machine will be designated as the &quot;Host&quot; of the game and will 
+          be responisble for setting the game up. The Host should fill out all 
+          of the Game Setup windows as they want the game to be played. The only 
+          thing which does not need to be done is that no players need be entered 
+          into the Players in GameList on the <a href="Screen_GameSetupPlayers.htm">Game 
+          Setup - Players Window</a>. These players will be added automatically 
+          when they connect in to the host. When the host is ready, they should 
+          press the Begin Game button and the <a href="Screen_TCPIPHost.htm">TCP/IP 
+          Host window</a> will be displayed. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26">&nbsp;</td>
+        <td width="77%" height="26"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="-1">&quot;TCP/IP 
+          Player &quot; - This selection indicates that the game will be played 
+          via the TCP/IP protocol over the internet (or an intranet). The current 
+          machine will be designated as one of the &quot;Player&quot;'s of the 
+          game. The Player does not need to fill out any of the information on 
+          the Game Setup windows as only the Host of the game can make these settings. 
+          When the Player is ready, they should press the Begin Game button and 
+          the <a href="Screen_TCPIPPlayer.htm">TCP/IP Player window</a> will be 
+          displayed. </font></td>
+      </tr>
+    </table>
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26"><i></i></td>
+        <td width="77%" height="26"><font face="Arial, Helvetica, sans-serif"></font></td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Buttons</font> 
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Quadrant</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Displays 
+          the <a href="Screen_GameSetupQuadrant.htm">Game Setup - Quadrant Window</a>.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Events</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Displays 
+          the <a href="Screen_GameSetupEvents.htm">Game Setup - Events Window</a>.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Technology</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Displays 
+          the <a href="Screen_GameSetupTechnology.htm">Game Setup - Technology 
+          Window</a>.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Player 
+          Settings</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Displays 
+          the <a href="Screen_GameSetupPlayerSettings.htm">Game Setup - Player 
+          Settings Window</a>.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Players</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Displays 
+          the <a href="Screen_GameSetupPlayers.htm">Game Setup - Players Window</a>.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Victory 
+          Conditions</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Displays 
+          the <a href="Screen_GameSetupVictoryConditions.htm">Game Setup - Victory 
+          Conditions Window</a>.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Game 
+          Settings</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Displays 
+          the <a href="Screen_GameSetupGameSettings.htm">Game Setup - Game Settings 
+          Window</a>.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Mechanics</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Displays 
+          the <a href="Screen_GameSetupMechanics.htm">Game Setup - Mechanics Window</a>.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="19"></td>
+        <td width="21%" height="19"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Begin 
+          Game</font></i></td>
+        <td width="77%" height="19"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Starts 
+          the game.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="15"></td>
+        <td width="21%" height="15"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Cancel</font></i></td>
+        <td width="77%" height="15"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Cancels 
+          the new game and returns you to the <a href="Screen_IntroWindow.htm">Intro 
+          Window</a>.</font></td>
+      </tr>
+    </table>
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%">&nbsp;</td>
+        <td width="77%">&nbsp;</td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Special 
+    Notes</font></div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">None</font></td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Related 
+    Areas</font> </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"><font face="Arial, Helvetica, sans-serif"><a href="Screen_IntroWindow.htm">Intro 
+          Window </a>, </font><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><a href="Screen_GameSetupQuadrant.htm">Game 
+          Setup - Quadrant Window</a>, <a href="Screen_GameSetupEvents.htm">Game 
+          Setup - Events Window</a>, <a href="Screen_GameSetupTechnology.htm">Game 
+          Setup - Technology Window</a>, <a href="Screen_GameSetupPlayerSettings.htm">Game 
+          Setup - Player Settings Window</a>, <a href="Screen_GameSetupPlayers.htm">Game 
+          Setup - Players Window</a>, <a href="Screen_GameSetupVictoryConditions.htm">Game 
+          Setup - Victory Conditions Window</a>, <a href="Screen_GameSetupGameSettings.htm">Game 
+          Setup - Game Settings Window</a>, <a href="Screen_GameSetupMechanics.htm">Game 
+          Setup - Mechanics Window</a></font></td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+</center>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<P>&nbsp; </P>
+
+</BODY></HTML>

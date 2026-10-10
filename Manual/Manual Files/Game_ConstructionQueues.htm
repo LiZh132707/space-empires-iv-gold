@@ -1,0 +1,172 @@
+<HTML>
+<HEAD>
+   <TITLE>Current Chapter</TITLE>
+</HEAD>
+<BODY BGCOLOR="#000000" LINK="#66FF66" ALINK="#99FF99" VLINK="#00CC00" text="#FFFFFF">
+
+<p align="left"><font face="Arial, Helvetica, sans-serif" color="#545A8C" size="+3">Construction 
+  Queues </font></p>
+<center>
+  <p align="left">&nbsp;</p>
+  <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Description</font> 
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Construction 
+          Queues are the items that your ships and planets construct. A construction 
+          queue is literally a list of items that your vehicle will construct 
+          in order. </font></td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Elements 
+    of a Construction Queue</font> </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 height="49" >
+      <tr valign="top"> 
+        <td width="2%" height="3"></td>
+        <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Space 
+          Yard </font></i></td>
+        <td width="77%" height="3"> 
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">All planets 
+            contain a construction queue as they can always build facilities and 
+            units. Ships will only have a construction queue if they contain a 
+            Space Yard component. A Space Yard component is required for a ship 
+            or a planet to be able to construct ships in space. </font></p>
+        </td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Rate</font></i></td>
+        <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Every 
+          construction queue has a rate at which is uses resources to build an 
+          item. The rate determines how long it will take to construct an item 
+          (the time being the total resource cost of the item divided by the construction 
+          queue rate). The rate for a construction queue is determined on a ship 
+          by the rate of the space yard. The rate for a planet is determined by 
+          the population modifiers present. The rate can also be increased or 
+          decreased if the queue is in &quot;emergency build mode&quot; or &quot;slow 
+          mode&quot;. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><i>Emergency 
+          Build </i></font></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          option will put your construction queue into an &quot;emergency build 
+          mode&quot;. While in &quot;emergency build mode&quot;, your construction 
+          queue will produce at double its normal rate. You can leave this option 
+          on for up to 10 turns. When you turn it off, or the 10 turns are reached, 
+          your construction queue will go into &quot;slow mode&quot; for the same 
+          number of turns that is was in &quot;emergency mode&quot;. While in 
+          &quot;slow mode&quot; the construction queue will produce at half of 
+          its normal rate. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="19"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><i>Repeat 
+          Build </i></font></td>
+        <td width="77%" height="19"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          option causes your construction queue to repeat the top item in the 
+          list. The top item will be repeated indefinitely.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="15"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><i>Queue 
+          On Hold</i></font></td>
+        <td width="77%" height="15"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          option puts your construction queue on hold. The item currently under 
+          construction will be paused until you turn this option off. This is 
+          typically used when you want to lower your overall costs, but don't 
+          want to actually delete the items in your construction queues. You can 
+          just put them on hold to stop your costs, and them start them up again 
+          when you have the resources. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="15"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><i>New 
+          Items </i></font></td>
+        <td width="77%" height="15"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">When 
+          new ships are completed, they will appear in the same location as the 
+          construction queue. Ships do not show up while they are under construction. 
+          Facilities are constructed on the planet. You can only add as many facilities 
+          to the construction queue as the planet can hold. Units that are constructed 
+          will first be added to the cargo of the ship or planet that has this 
+          construction queue. If space runs out, then the units will attempt to 
+          be placed in any other cargo space that this player owns. If no space 
+          at all is available to hold the cargo, then the unit will not be constructed 
+          and you will receive a message in your log report warning you of the 
+          situation. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="15"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><i>Upgrades 
+          </i></font></td>
+        <td width="77%" height="15"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Upgrades 
+          are used to upgrade the facilities which are present on a planet. They 
+          allow you to change older versions of a facility to the latest version. 
+          One upgrade will cause all of old facilities on the planet to change. 
+          The for the upgrade is calculated as a percentage of the facility cost 
+          times the number of facilities that need to be changed. </font></td>
+      </tr>
+    </table>
+  </div>
+  <div align="left">
+<table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%">&nbsp;</td>
+        <td width="77%">&nbsp;</td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Special 
+    Notes</font></div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">None</font></td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Related 
+    Areas</font> </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="12"></td>
+        <td width="95%" height="12"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><a href="Screen_ConstructionQueues.htm">Construction 
+          Queues Window</a></font><font color="#FFFFFF">, <font face="Arial, Helvetica, sans-serif"><a href="Screen_SetConstructionQueue.htm">Set 
+          Construction Queue Window</a></font></font> </td>
+        <td width="3%" height="12">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+</center>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<P>&nbsp; </P>
+
+</BODY></HTML>

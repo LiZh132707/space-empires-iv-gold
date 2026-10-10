@@ -1,0 +1,80 @@
+   24019    6    0    0 Contact established.
+   24021    6    0    0 Non-Aggression established.
+   24022    6    0    0 Trade Alliance established.
+   24027    6    0    0 Trade and Research Alliance established.
+   24032    7    0    0 Contact established.
+   24042    9    0    0 Contact established.
+   24043    9    0    0 Non-Aggression established.
+   24044    9    0    0 Trade Alliance established.
+   24045    6    0    0 War breaks out.
+   24046    5    0    0 Contact established.
+   24048    7    0    0 Trade Alliance established.
+   24050    7    0    0 War breaks out.
+   24053    5    0    0 Trade Alliance established.
+   24056   10    0    0 Contact established.
+   24057   10    0    0 Empire destroyed.
+   24065    6    0    0 Empire destroyed.
+   24074    5    0    0 Trade and Research Alliance established.
+   24077    5    0    0 Partnership established.
+   24081    5    0    0 War breaks out.
+   24081    9    0    0 War breaks out.
+   24082    9    0    0 Empire destroyed.
+   24003    2    0    0 Contact established.
+   24010    2    0    0 War breaks out.
+   24015    4    0    0 Contact established.
+   24017    4    0    0 Trade Alliance established.
+   24024    4    0    0 Trade and Research Alliance established.
+   24027    4    0    0 Treaty broken.
+   24028    3    0    0 Contact established.
+   24031    2    0    0 Empire destroyed.
+   24031    3    0    0 Trade Alliance established.
+   24035    4    0    0 Trade Alliance established.
+   24036   16    0    0 Contact established.
+   24039   16    0    0 Trade Alliance established.
+   24044   16    0    0 War breaks out.
+   24045    3    0    0 Treaty broken.
+   24045   16    0    0 Empire destroyed.
+   24047    3    0    0 War breaks out.
+   24063    4    0    0 Trade and Research Alliance established.
+   24064   10    0    0 Contact established.
+   24065    3    0    0 Empire destroyed.
+   24066   10    0    0 Empire destroyed.
+   24070   15    0    0 Contact established.
+   24072   15    0    0 Empire destroyed.
+   24075   12    0    0 Contact established.
+   24075    5    0    0 Contact established.
+   24079    5    0    0 Trade Alliance established.
+   24081   12    0    0 Empire destroyed.
+   24083    4    0    0 War breaks out.
+   24083    5    0    0 Treaty broken.
+   24086    5    0    0 War breaks out.
+   24024   10    0    0 Contact established.
+   24025   10    0    0 Trade Alliance established.
+   24028   10    0    0 Trade and Research Alliance established.
+   24029   10    0    0 War breaks out.
+   24033   11    0    0 Contact established.
+   24034   10    0    0 Empire destroyed.
+   24035   11    0    0 Trade Alliance established.
+   24039   11    0    0 Trade and Research Alliance established.
+   24058   11    0    0 War breaks out.
+   24059   11    0    0 Empire destroyed.
+   24085    2    0    0 Contact established.
+   24119    2    0    0 Empire destroyed.
+   24120    7    0    0 Contact established.
+   24125    4    0    0 Contact established.
+   24126    9    0    0 Contact established.
+   24126    4    0    0 War breaks out.
+   24126    7    0    0 War breaks out.
+   24127    9    0    0 War breaks out.
+   24131    9    0    0 Empire destroyed.
+   24146   12    0    0 Contact established.
+   24146   12    0    0 War breaks out.
+   24147    6    0    0 Contact established.
+   24147    6    0    0 War breaks out.
+   24147   12    0    0 Empire destroyed.
+   24151    3    0    0 Contact established.
+   24151    6    0    0 Empire destroyed.
+   24152    3    0    0 War breaks out.
+   24154   13    0    0 Contact established.
+   24154    3    0    0 Empire destroyed.
+   24154   13    0    0 War breaks out.

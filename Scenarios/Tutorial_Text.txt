@@ -1,0 +1,500 @@
+=======================================================================================
+SCENARIO TEXT DATA FILE
+=======================================================================================
+
+ID:
+  Unqiue identifier for this scenario segment.
+
+Series:
+  The grouping for this scenario segment. All items with the
+  same series number which are in order, will be viewable by
+  the player by hitting previous \ next. 
+
+Segment:
+  The order number within this series. 
+
+Turn:
+  The turn that this item should be displayed. Numbering starts
+  at zero which is the first game turn.
+
+For Players:
+  The list of all players that should see this text on their
+  turn.
+
+Text Number of Paragraphs:
+  The number of paragraphs for the text box.
+
+Text Paragraph #:
+  The text for the paragraph. Indentation is taken care of by 
+  the program.
+
+Image:
+  The bitmap name to display in the Scenario Text window. The
+  bitmap must be located in the Scenarios directory.
+
+=======================================================================================
+*BEGIN*
+=======================================================================================
+
+ID                          := 1
+Series                      := 1
+Segment                     := 1
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Space Empires IV Tutorial
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Welcome to the Space Empires IV Tutorial! This tutorial is intended to give you an introduction to the game and present the many windows that you will use to interact with it. In addition to this tutorial, there is extensive help available in the online documentation. At any window in the game, you can press the small button in the upper-right hand corner with a "T" on it, to bring up this tutorial window.  Press the Next button.
+Image                       := Tutorial_Start.bmp
+
+ID                          := 2
+Series                      := 1
+Segment                     := 2
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Using the Tutorial
+Text Number of Paragraphs   := 2
+Text Paragraph 1            := The tutorial is a series of pages in this window which will give you instructions on how to play the game. On each page, you will read the instructions, then press the Close button. On the window present you will then perform the actions the tutorial detailed. 
+Text Paragraph 2            := When you have completed them, you will need to press the small "T" button in the upper-right hand of the window. When you complete a given page, you will press the "Next" button at the bottom to advance to the next Tutorial Page. When you reach the last tutorial page for this turn, you will need to press the End Turn button (On the main window, it looks like a bent arrow pointing to the left, with the caption "End Turn") to proceed to your next turn. On the next turn, a new sequence of tutorial pages will begin. Press the Next button.
+Image                       := Tutorial_Start.bmp
+
+ID                          := 3
+Series                      := 1
+Segment                     := 3
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Interrupting the Tutorial
+Text Number of Paragraphs   := 2
+Text Paragraph 1            := If, for some reason, you need to stop the tutorial and want to come back to it another night, you can follow this procedure. The first thing to do is to close the Tutorial window by pressing the "Close" button. From the Main Window, select the icon which looks like a small clipboard (with the caption "Game Menu"). Select the Save Game button. In the Save Game window, select the New Save Game button. Now the game will ask you for a file name to save the game as. Merely type some simple name for the game that you will remember. Press the OK button. 
+Text Paragraph 2            := The current game will now be saved, and you can shut down Space Empires IV (by selecting the Game Menu, then Quit). At a future date, when you're ready to play the tutorial again, you should start Space Empires IV and select Load Game. You can then click on the name of your save game. Your save game will be loaded and it should look just like you left it. Press the small "T" button to redisplay the Tutorial window. Press the Next button.
+Image                       := Tutorial_Start.bmp
+
+ID                          := 4
+Series                      := 1
+Segment                     := 4
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Main Window
+Text Number of Paragraphs   := 4
+Text Paragraph 1            := Behind this window is the Main window. You will spend most of your game using the Main window to control your empire. At the top of the main window is a bar which shows your empire flag, empire name, emperor name, current game date, and current amount of resources on hand. Below this bar is the command panel. It contains three different banks of buttons that you can click. 
+Text Paragraph 2            := The first bank contains 12 buttons which are called the command buttons. These allow you to view all sections of your empire and control the high level items. The first button of this bank is the Menu command (clipboard icon) which will allow you to Load and Save games. When you want to quit the game, you select this icon, and then select the Quit button. 
+Text Paragraph 3            := The next bank of buttons are the Order buttons. When you have ships and planets selected these buttons will light up to allow you to give orders to your vehicles. The last bank of buttons is the Next and Previous buttons. These allow you to jump between all of the ships, fleets, and planets in your empire. If you wonder what each of the buttons do specifically, you can move your pointer over them and the name of the button will be displayed below. 
+Text Paragraph 4            := Press the Close button on this window to explore the Main window. When you are done, press the small "T" button in the upper right hand corner of the Main window to display this Tutorial window again. Press the Next button. 
+Image                       := Tutorial_MainWin.bmp
+
+ID                          := 5
+Series                      := 1
+Segment                     := 5
+Turn                        := 0
+For Players                 := 1
+Text Title                  := System Window
+Text Number of Paragraphs   := 2
+Text Paragraph 1            := In the bottom left of the Main Window is the System Window. This window displays the system you are currently looking at. In it are displayed the stars, planets, and ships which are visible in this system. To get more details on something in the system window, left-click on it. The items at this location will be displayed in the window which sits next to the System window.  
+Text Paragraph 2            := You should now explore this window by pressing the Close button on this window. Left-click on different areas in the solar system to see a detailed report about the item there, or to see a list of items at that location. When you are done, bring this window back up, and then press the Next button.
+Image                       := Tutorial_SystemWin.bmp
+
+ID                          := 6
+Series                      := 1
+Segment                     := 6
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Galaxy Window
+Text Number of Paragraphs   := 2
+Text Paragraph 1            := In the bottom right-hand corner of the Main Window is the Galaxy Window. This window displays a diagram of this section of the galaxy. Each solar system is represented with a circle, and warp point connections between systems are represented with lines between the circles. The different colors indicate which empires are present in the solar system, with a triangle indicating that there is more than one empire present. When you select a solar system in the Galaxy Window, that system will be displayed in the System Window. 
+Text Paragraph 2            := You should now explore this window by pressing the Close button on this window. Left-click on different circles in the Galaxy window to see that solar system displayed. At present, you have only explored one solar system so only it will be visible for display. When you are done, bring this window back up, and then press the Next button.
+Image                       := Tutorial_GalaxyWin.bmp
+
+ID                          := 7
+Series                      := 1
+Segment                     := 7
+Turn                        := 0
+For Players                 := 1
+Text Title                  := First things first...
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Since you don't currently have any ships around your homeworld, you need to build some. All ships are built from designs that you create. So the first thing to do is to create a ship design, and to do that, we need to go into the Designs Window. You should press Close on this window, then on the Command buttons on the Main Window, select the second button from the left in the first row which looks like a green grid with a ship on it (it will say Designs when you put your pointer over it). When you get into this window, Press the "T" button in the top-right corner to re-display this Tutorial. Press the Next button.
+Image                       := Tutorial_Start.bmp
+
+ID                          := 8
+Series                      := 1
+Segment                     := 8
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Designs Window
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := You are now in the Designs Window. This window allows you to view both your designs, and those of the enemy that you have seen. On the right side of the window you will see a column of buttons stretching the entire height of the window. Find the button which says Create and press it. When you are asked the type of design to create, select the item called "Ship" and left-click on it. 
+Image                       := Tutorial_ShipDesign.bmp
+
+ID                          := 9
+Series                      := 1
+Segment                     := 9
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Create Design Window
+Text Number of Paragraphs   := 3
+Text Paragraph 1            := You are now in the Ship Design Window. Here you will create a ship design from which you will be able to produce ships. Consider the ship design like a template for creating the real thing. The first thing to do is to pick a size for your design. Underneath the word which says "Size", press the down pointing arrow button next to the box. A list will be displayed which will allow you to select from the available ship sizes. You should select the size called "Escort" by left-clicking on it. 
+Text Paragraph 2            := Next you'll want to select the Design Type by again pressing the arrow pointing down. You should select the first item called "Attack Ship" by left-clicking on it. 
+Text Paragraph 3            := Finally, you can pick a name for your design. You can either type in the box yourself, or press the arrow button to get a list of possible choices. Let's type in the name "Explorer" (you'll first need to backspace and delete the name "Design Name").  
+Image                       := Tutorial_ShipDesign.bmp
+
+ID                          := 10
+Series                      := 1
+Segment                     := 10
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Adding components
+Text Number of Paragraphs   := 5
+Text Paragraph 1            := Now we need to add components to our design. Components are the different sections of the ship which give it capabilities. The first thing we need is a Bridge for our ship. In the middle of the window is a section called "Components Available (All)" with 3 rows and 3 columns of components. Find the component called "Bridge" and left-click on it. 
+Text Paragraph 2            := You should notice that the Warnings List in the bottom left of the window has now removed the warning for "Must have 1 bridge". Your design is not legal until you meet all of these requirements. 
+Text Paragraph 3            := You should also notice that the component had a space requirement of 10kT, and that when you added it to your design, that space was taken up ("Space Used") in the statistics for your design at the top right of the window. And finally, the component you just selected shows up in the list called "Components on Design" in the middle of the window. 
+Text Paragraph 4            := Now repeat this process of left-clicking on components for the following items: Life Support, Crew Quarters, 5 x Ion Engine I (add this item 5 times), (click on the right pointing arrow at the edge of the list) 2 x Depleted Uranium Cannon I.  You've now completed your first ship. 
+Text Paragraph 5            := You should notice that there are no more warnings in the Warnings List. This means that your design is acceptable. Press the "Create Design" button to create your design and close this window. 
+Image                       := Tutorial_ShipDesign.bmp
+
+ID                          := 11
+Series                      := 1
+Segment                     := 11
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Constructing your design
+Text Number of Paragraphs   := 3
+Text Paragraph 1            := On the Designs Window you should notice that your new "Explorer" design has appeared in the Designs List. Press close on the Designs Window to return you to the Main Window. 
+Text Paragraph 2            := On the Main Window, find the command button for "Construction Queues" (looks like a wrench). When you select it you will display the Construction Queues window. On this window you can control all of the construction queues you own throughout your empire. There will be only one item in the list which is your home planet. Left-click on your home planet. Now the Set Construction Queue window will be displayed for you to set the planet's construction queue. 
+Text Paragraph 3            := In the Construction Items list you will see your Explorer design listed. Left-click on it to add it to this planet's construction queue. The name Explorer will now be displayed in the construction queue list for this planet. You can pass your pointer over the item to see a small report about it displayed at the bottom of the window. This will tell you that your Explorer ship will take 0.2 years until it is complete. Press the Close button on this window. Press the Close button on the Construction Queues window. Now we just have to wait 2 turns until the ship has been built. 
+Image                       := Tutorial_Construct.bmp
+
+ID                          := 12
+Series                      := 1
+Segment                     := 12
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Research
+Text Number of Paragraphs   := 2
+Text Paragraph 1            := Now its time to research some new technologies. On the Main window, find the command button for Research (look like a beaker) and press it. You should now see the Research Window. This window allows you to set the technology areas that your empire is currently researching. First off, we would like to research Ship Construction so that we can get larger ship sizes to build. In the list of Research Areas, find the item called "Ship Construction" and left-click on it. 
+Text Paragraph 2            := You will notice that it gets added to the first of the four boxes at the bottom of the window called "1 Current Project". This shows that you are currently research "Ship Construction", you are attempting to attain tech level 2, the estimate time of completion is 0.1 years (1 turn), and that you are spending 20650 research points on that single project. When you start the game, you are given a bonus in points to help start you off. We won't have nearly this many research points on our next turn to spend. Press the Close button on this window. 
+Image                       := Tutorial_Research.bmp
+
+ID                          := 13
+Series                      := 1
+Segment                     := 13
+Turn                        := 0
+For Players                 := 1
+Text Title                  := End Turn
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := You have just completed your first turn! Next you want to press the "End Turn" button on the Main window's command panel. You will be asked whether you want to end your turn, and you should select "Yes".  When you do, the Main window will go blank and say that the other players are taking their turn. When they complete their turn, the Main window will be turned back on again. When it comes back up, the Log Window will be displayed. Once the Log window displays, press the small "T" icon to redisplay this Tutorial.
+Image                       := Tutorial_Start.bmp
+
+ID                          := 14
+Series                      := 1
+Segment                     := 14
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Log Window
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Every time to start a new turn, the Log window will be displayed if any new events have taken place. On the left side of the window in the "Log Messages" list, you will see three items listed. You should left-click on each of these to see the complete report in the "Log Details" section. The first item tells you that a "New Tech Level" has been attained. This is the Ship Construction technology area that you selected on the last turn. The next item in the list says "Frigate Discovered". Because you just attained the new tech level in Ship Construction, there is a new ship size available for you to build ships with. The last item is called "All Projects Completed" which is telling you that you have completed all of your research projects and are not currently researching anything. We'll change that shortly. Press Close on the Log Window. 
+Image                       := Tutorial_Event.bmp
+
+ID                          := 15
+Series                      := 1
+Segment                     := 15
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Help Window
+Text Number of Paragraphs   := 2
+Text Paragraph 1            := Let's check out the details of our new discovery. On the Main window, press the Help button (which looks like a question mark). This window allows you to view reports on most of the items in the game. You can also right-click on any item throughout the game to see these reports as well. On the right side of the window is a column of tab buttons. Select the one called "Ship Sizes". When you do, the "Items" list will change to a list of the different Ship Sizes that your empire knows about. 
+Text Paragraph 2            := In the "Items" list, click the item called "Frigate". In the "Item Details" section of the window, you should see a complete report displayed about this ship size. It will look very similar to the report you were given in the Log Window when you selected the "Frigate Discovered" item. This new ship size is larger than the Escort size, costs a little more, but only gets a 30% modifier because of its small size. You should take some time to browse through all of the different items in this window from Components through Formations. When you are done, press the Close button on this window.
+Image                       := Tutorial_Help.bmp
+
+ID                          := 16
+Series                      := 1
+Segment                     := 16
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Research Window
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Now lets go back into the Research Window to select a new technology to research. Press the Research button on the Main Window. In the Research Window select "Propulsion". You will notice that the estimated time till completion is 1.3 years! The reason for this is that you only have 780 research points to spend. How do you get these research points in the first place? The facilities on your planets produce the minerals, organics, radioactives, research, and intelligence points that you spend on items. Let's go and take a look at your current output for your entire empire. Press Close on the Research Window. 
+Image                       := Tutorial_Research.bmp
+
+ID                          := 17
+Series                      := 1
+Segment                     := 17
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Empire Status
+Text Number of Paragraphs   := 3
+Text Paragraph 1            := On the Main Window, select the Empire Status command button (it looks like a crown). On the Empire Status window you will see a complete accounting of the current amount of resources that your empire generates and then spends. 
+Text Paragraph 2            := Your empire is currently generating 1248 minerals, 1248 organics, and 1248 radioactives per turn. The only thing you are spending your resources on is Construction Queue Usage for a total of 250 minerals. This Construction Queue Usage amount comes from the Explorer ship that you selected to build last turn. 
+Text Paragraph 3            := The Net Resources per Turn show that your empire is generating more resources that you are spending, which is a very good thing. As you play the game, be careful that you don't bankrupt your economy. Check this window to see that you are not spending yourself down to nothing. Now let's see how many resources are being generated by each planet. Press Close on this window.
+Image                       := Tutorial_EmpireStatus.bmp
+
+ID                          := 18
+Series                      := 1
+Segment                     := 18
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Planets Window
+Text Number of Paragraphs   := 3
+Text Paragraph 1            := On the Main Window, select the Colonies command button (looks like a small dome). On the Planet window you will see a listing of all of your planets throughout this section of the galaxy. At present you only have your home planet Dornot VII. On the right side of this window is a column of tab buttons. Select the button which says "Production". 
+Text Paragraph 2            := You will see the display of the list change so that new columns are listed. These columns show you the total point output of each of the planets listed. You can see that your home planet is the one generating all of your resources. In the list, right-click on that row your planet is in to display a detailed report about the planet. 
+Text Paragraph 3            := At the bottom of this report window you will see four tab buttons. You are currently on the Detail Tab. Select the Facil. Tab. This will show you all of the facilities that are currently on this planet. Facilities generate resources and give your planets abilities. For each of the facilities in the grid, right-click on each one in turn to see a report about it. 
+Image                       := Tutorial_Planets.bmp
+
+ID                          := 19
+Series                      := 1
+Segment                     := 19
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Facilities
+Text Number of Paragraphs   := 3
+Text Paragraph 1            := You will see a Spaceport, Space Yard Facility I, Resupply Depot, Mineral Miner Facility I, Radioactives Extraction Facility I, Organics Farm Facility I, and a Research Center I. Each of your solar systems requires a Spaceport in it to gather the resources from your planets and transport it to your empire. Without a Spaceport, you will not get points from any of the planets in the system. A Space Yard Facility is used to construct ships in space. Without it, you can only construct items on the planet such as Facilities and Units. 
+Text Paragraph 2            := The Resupply Depot Facility allow you to supply your ships so that they can move out into space. Without supplies, your ships will not be able to move or operate. The Mineral Miner, Radioactives Extraction, and Organics Farm generate resources from your planet. When you look at their reports, you will notice that they each generate 800 resources per turn. This amount is modified by the planet's value, your population's happiness, and other factors. The final facility on your planet is the Research Center. It generates the research points that you spent in the Research Window. 
+Text Paragraph 3            := You should also notice on the bottom of this window that there is a limited amount of space on the planet for facilities. You have constructed 7 of the possible 15 facilities that the planet can support. 
+Image                       := Tutorial_PlanetFacilities.bmp
+
+ID                          := 20
+Series                      := 1
+Segment                     := 20
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Cargo
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Press the tab button to display the Cargo tab. This grid looks pretty empty, but you do not have any cargo currently on the planet. If there was, it would be displayed in this grid. At the bottom of the window there is a display of how much cargo space is used out of the total available. 
+Image                       := Tutorial_Cargo.bmp
+
+ID                          := 21
+Series                      := 1
+Segment                     := 21
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Abilities
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Press the tab button to display the Abilities tab. This list displays all of the inherent abilities that this planet has separate from the abilities it gets from its facilities. You should notice that your planet is receiving bonuses because of its high population and the happiness of the people. 
+Image                       := Tutorial_Abilities.bmp
+
+ID                          := 22
+Series                      := 1
+Segment                     := 22
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Detail
+Text Number of Paragraphs   := 5
+Text Paragraph 1            := Press the tab button to display the Detail tab.  This display shows you all of the most important information about the planet. Items such as the planet type, size, atmosphere, conditions, and value are shown at the top of the window. The value of the planet is a modifier to the points your facilities produce. So since your Mineral facility produces 800 minerals on its own, this amount will be modified by 100% (no change) because of the value of the planet. 
+Text Paragraph 2            := In the top left of the window above the planet picture is a small flag. This is the flag that represents your empire. You can right-click on it to get a report about your race (you can also do this to other player's flags). Underneath your planet two small pictures are displayed. These are called status icons and they mean that you have a spaceyard present on this planet and are currently constructing something on the planet. There are many types of status icons that can be displayed on different reports. 
+Text Paragraph 3            := Below the description of the planet is listed the colony type, population amount, reproduction rate of the population, and their happiness. After the population amount is a small picture of the race that is present on this planet. Currently, only your race is on the planet. You can right-click on this small picture to see more details. 
+Text Paragraph 4            := Below the population details, is a listing of the current amounts of resources being generated by this planet. The section displays the Minerals, Organics, Radioactives, Research Points, and Intelligence Points that are being generated each turn (after all the various modifiers are applied). Finally the window displays the current item that is being constructed by your planet. You should notice that it says "Explorer" and has a time remaining of 0.1 years. 
+Text Paragraph 5            := Now that you finished looking over the Planet Report, press the Close button. On the Colonies window, press the Close button as well. 
+Image                       := Tutorial_Planets.bmp
+
+ID                          := 23
+Series                      := 1
+Segment                     := 23
+Turn                        := 0
+For Players                 := 1
+Text Title                  := End Turn
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := You have just completed your second turn (there wasn't all that much to do). Next you want to press the "End Turn" button on the Main window's command panel. 
+Image                       := Tutorial_Start.bmp
+
+ID                          := 24
+Series                      := 1
+Segment                     := 24
+Turn                        := 0
+For Players                 := 1
+Text Title                  := New Ship
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := When your new turn starts, the Log Window will again be displayed. This time it is notifying you that your Explorer ship has been constructed. On the Log Window, we can press the Goto button to jump to the location where the new ship was constructed. Press the Goto button. The Log window will close and our home planet will be displayed in the Main Window. You will notice that in the top right, there is a list which shows our home planet "Dornot VIII" and our new ship "Explorer 0001". This list window will display a list if there is more than one item present in the location that you selected. Since we want to give orders to our "Explorer 0001" ship, left-click on it in the list. You should now see the Ship Report window within the Main window. This displays detailed information about your ship, much like the Planet Report window did. 
+Image                       := Tutorial_NewShip.bmp
+
+ID                          := 25
+Series                      := 1
+Segment                     := 25
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Detail
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := The first section of this report displays a picture of the ship, and your empire flag in the top left corner. Next the ship's name is displayed, followed by its class (design name), size, movement remaining, damage taken, and supply amount remaining. Below this section is listed the current experience your crew has, the design type for this class, and the name of the fleet for this ship. You will notice an arrow in the top-right of this small window which points up. If you press this you will be taken back to the list view of this location. You can then left-click on the ship again to return to the report. 
+Image                       := Tutorial_ShipDetail.bmp
+
+ID                          := 26
+Series                      := 1
+Segment                     := 26
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Comps
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Select the Comps tab at the bottom of the Ship Report window. You will see a grid which displays all of the components on your ship. These are the same components that you placed on your Explorer design. The only difference here is that components can actually be destroyed when your ship gets into combat. At the bottom of this section is listed how many components are damaged of the total number.
+Image                       := Tutorial_ShipComps.bmp
+
+ID                          := 27
+Series                      := 1
+Segment                     := 27
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Cargo
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Select the Cargo tab. This looks much like the Planet report window with a blank grid. This is where cargo that your ship is carrying would be listed. 
+Image                       := Tutorial_Cargo.bmp
+
+ID                          := 28
+Series                      := 1
+Segment                     := 28
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Abilities
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Select the Abilities tab. This section lists all of the abilities this ship has which are inherent to it (not being generated by components). You can see that your ship receives a defensive bonus because of its small size. Press the Detail tab to return to the first page of this report. 
+Image                       := Tutorial_Abilities.bmp
+
+ID                          := 29
+Series                      := 1
+Segment                     := 29
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Warp
+Text Number of Paragraphs   := 3
+Text Paragraph 1            := Now let's give our ship orders to move through the nearest warp point. The solar systems of the galaxy are connected together via warp points (also known as wormholes). A ship which passes into a warp points arrives instantaneously on the other side. We want our ship to move through the warp point so that it can get to another solar system. With the Ship report displayed, look up at the Order buttons on the Main Window. You may notice that some of them have lit up. The buttons which are lit up are the orders which you can give to your ship. Move your pointer over some of them to see their name displayed below. 
+Text Paragraph 2            := We want to select the first button in the list on the second row called "Warp". When you press this button, text will be displayed at the bottom of the window which says "Please select target for Warp order...". You must now click on a warp point for your ship to move to and then warp through. Left-click on the Warp Point on the right side of the solar system (it looks like a swirling blue hole). 
+Text Paragraph 3            := When you click on it, you will notice your ship immediately move towards the warp point. It will get to the same location as the warp point, and then will stop. Your ship only had 5 movement points which was just enough to get you there. Your ship has not moved through the warp point yet. Also you should keep in mind that you gave your ship orders to move through the warp point. This means that it still has the orders because it has not completed them yet. On your next turn, when your ship has movement points again, it will continue to execute its orders and will move through the warp point. 
+Image                       := Tutorial_WP.bmp
+
+ID                          := 30
+Series                      := 1
+Segment                     := 30
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Designing a Colony Ship
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Now this one ship is not enough. Though it may explore the galaxy, we want to be able to colonize other planets. For this, we will need a colony ship. On the Main window, select the Designs command button. On the Designs window, select the Create button. When asked what type of vehicle, select "Ship". On the Ship Design Window, select "Colony Ship" for Vehicle Size, select "Colony(Rock)" for the Design Type, and type in a Design Name of "Colony Ship". Add the components Bridge, Life Support, Crew Quarters, 5x Ion Engine I, and then Rock Colony. Press the "Create Design" button. You have now created your first colony ship! Press the Close button on the Designs Window. 
+Image                       := Tutorial_ShipDesign.bmp
+
+ID                          := 31
+Series                      := 1
+Segment                     := 31
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Building a Colony Ship
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := On the Main window, select your home planet on the Main Window by left-clicking on it. You should see the report for "Dornot VIII" displayed on the right side of the Main Window.  In the Order buttons section of the Main Window, find and press the button called "Build Queue" (looks like a construction crane). You should now see the Set Construction Queue Window. You saw this window before when you went through the Construction Queues Window. It's the same thing. The order button you pressed merely allows you to set the construction queue for this planet specifically. In the Set Construction Queue window, you should see your design "Colony Ship" in the list. Left-click on it to add it to the construction queue for this planet. Press the Close button to close this Window. 
+Image                       := Tutorial_Construct.bmp
+
+ID                          := 32
+Series                      := 1
+Segment                     := 32
+Turn                        := 0
+For Players                 := 1
+Text Title                  := End Turn
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := You have just completed your third turn. Press the "End Turn" button on the Main window's command panel. 
+Image                       := Tutorial_Start.bmp
+
+ID                          := 33
+Series                      := 1
+Segment                     := 33
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Ship Moved
+Text Number of Paragraphs   := 3
+Text Paragraph 1            := At the beginning of your turn, you may have noticed that your Explorer ship moved on its own. You can now see the Yullado system which is filled with a large red cloud. Your Explorer ship completed its orders on this turn, which was to warp through the warp point. It has now moved into the Yullado system. 
+Text Paragraph 2            := You may notice on the Galaxy Map that there is a line between the two circles which represent the Dornot and Yullado systems. You are currently looking at the Yullado system, so that circle is solid and has an extra ring around it. Both circles are yellow, because that is your empire color, and no other empires are present. 
+Text Paragraph 3            := You may also want to look at this system we've just entered. Its filled with a large red cloud, and there are no planets. This is a nebulae system. Left-click in the system on nothing in particular. In the upper-right of the Main Window you'll see a report about this system. It says that this is a nebulae system and that it is opaque to most scanners. What this means is that if there are enemy ships in this system, you would not be able to see them. 
+Image                       := Tutorial_Storm.bmp
+
+ID                          := 34
+Series                      := 1
+Segment                     := 34
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Moving a Ship
+Text Number of Paragraphs   := 4
+Text Paragraph 1            := Left-click on your Explorer ship which is sitting on the warp point in the middle left of the system window. You'll notice that this location shows your empire flag with a little one next to it. If there are multiple items at a location, then the number of ships you have will be summarized like this. 
+Text Paragraph 2            := When you click on the location, the list in the upper right of the Main Window shows the warp point and your Explorer ships. Left-click on your Explorer ship to get its report. The Explorer ship has 4/5 movement remaining, so let's give it some new orders. 
+Text Paragraph 3            := Let explore the warp point on the other side of our home system of Dornot. In the Orders bank on the Main Window, select the Move To order (which looks like a right-pointing arrow). When you do, you will see text at the bottom of the system window which says "Please select target for Move To order...". 
+Text Paragraph 4            := On the Galaxy window, left-click on the Dornot system. When the Dornot system is displayed, left-click on the warp point in the bottom left of the system window. You will see the display flash back to the Yullado system, and your Explorer ship will move through the warp point into the Dornot system, and then will move towards its destination. 
+Image                       := Tutorial_NewShip.bmp
+
+ID                          := 35
+Series                      := 1
+Segment                     := 35
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Ship Orders
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Left-click on your Explorer ship again so that you see its report. Like last time, the ship still has orders to move to it destination. To find out about a ships orders, find the "View Orders" order button in the order buttons bank on the Main Window (it looks like a big white eyeball). When you select this, a small window will be displayed which will list the orders that this ship has outstanding. You can see that it has Move To orders to go to location (0, 10). If you didn't want your ship to continue with these orders, you could clear them by selecting the "Clear Orders" order button (but don't do this now). 
+Image                       := Tutorial_NewShip.bmp
+
+ID                          := 36
+Series                      := 1
+Segment                     := 36
+Turn                        := 0
+For Players                 := 1
+Text Title                  := End Turn
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := You have completed your fourth turn. Press the "End Turn" button on the Main window's command panel. 
+Image                       := Tutorial_Start.bmp
+
+ID                          := 37
+Series                      := 1
+Segment                     := 37
+Turn                        := 0
+For Players                 := 1
+Text Title                  := New Colony Ship
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Two different things happened at the beginning of this turn. First, your Explorer ship continued moving towards its destination. Secondly, the Log Window was displayed, and you see a notification that your Colony Ship has been constructed. Press Close on the Log Window. Find your home planet and left-click on it. You should see your home planet Dornot VIII and your Colony Ship 0001. Left-click on your Colony Ship in the list. Now to the task of colonizing a new planet. 
+Image                       := Tutorial_ColonyShip.bmp
+
+ID                          := 38
+Series                      := 1
+Segment                     := 38
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Planet Colonization
+Text Number of Paragraphs   := 3
+Text Paragraph 1            := There are 3 physical types of planets that can be colonized - Rock, Ice, and Gas. But before you can colonize them, you have to have the technology to do so. Your empire currently has the technology to colonize Rock planets. 
+Text Paragraph 2            := Another factor in colonization is the atmosphere that your race can breathe. Your race can breathe Oxygen atmospheres. This new Colony Ship that you have built can colonize Rock planets. There are several in your home system, but unfortunately, none of them has the atmosphere type that you can breathe. No matter. You can still colonize the planet, but your colony will have to be domed. 
+Text Paragraph 3            := As you look at the planets in the system window, you may have noticed little red stars (or asterisks) at the top right corner of three of the planets in your home system. This little star is a helper for you to identify which planets you can colonize. A little red star means that you can colonize it, but you cannot breathe the atmosphere. A little green star means that you can both colonize it, and breathe the atmosphere. Obviously, the best planets to colonize are those with the green stars. Planets without stars you cannot colonize with your current technology. 
+Image                       := Tutorial_Colony.bmp
+
+ID                          := 39
+Series                      := 1
+Segment                     := 39
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Sending the Colonizer
+Text Number of Paragraphs   := 2
+Text Paragraph 1            := There are three planets in this system that you can colonize. We are going to colonize the planet that is orange in color named Dornot II (not the planet right next to your home planet, but the next one up). Why this planet? There are three main factors when colonizing a planet. First off, can you colonize it and breathe the atmosphere. Secondly, the larger the planet the more facilities and cargo it can hold. Third is the inherent value of the planet. 
+Text Paragraph 2            := With your Colony Ship 0001 selected, click on the order button named "Colonize" in the order bank of the Main Window (it looks like a small white dome on green grass). When you do, text will appear which says "Please select target for Colonize order...". Left-click on the large orange planet with the red star (Dornot II). When you do, your colony ship will move to the planet, and then a window will be displayed asking you for the Colony Type. Left-click on the entry for "Mining Colony".  This selection of Colony Type is merely for notational purposes so that you can remember the purpose you have for the planet. 
+Image                       := Tutorial_Colony.bmp
+
+ID                          := 40
+Series                      := 1
+Segment                     := 40
+Turn                        := 0
+For Players                 := 1
+Text Title                  := New Colony
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := Dornot II will now be colonized and show its complete report on the Main Window. It will look similar to the report for your home planet but with a few notable differences. The population is only 4M out of a maximum of 300M (million). There is a small icon which looks like a white wire-frame dome. This means that this colony is domed. A Domed colony is restricted to a reduced maximum population it can hold. You should also notice that it is not producing any resources. First thing we want to do is to build facilities on this planet so that it will provide resources for our empire. 
+Image                       := Tutorial_Colony.bmp
+
+ID                          := 41
+Series                      := 1
+Segment                     := 41
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Facility Construction
+Text Number of Paragraphs   := 3
+Text Paragraph 1            := Since the planet is in the same system as our home planet, and our home planet already has a Spaceport, we don't need a spaceport on this planet. With the Dornot II report showing, find the button "Build Queue" in the order bank of the Main Window and left-click on it. 
+Text Paragraph 2            := The now familiar Set Construction Queue Window will be displayed. You should notice on this window that the "Ships" tab button is darkened on the right-side. You cannot build ships at this planet until you construct a Space Yard facility here. But that's not our priority right now. We want to build Mineral miner facilities. 
+Text Paragraph 3            := The "Facilities" tab on the right should already be selected. In the list of Construction Items, you will see a list of all of the different types of facilities you can create. Find the item called "Mineral Miner Facility I" and left-click on it 3 times. You will see the item added to the Construction Queue three times. The Mineral Miner Facility at the top of the list will be the first to be worked on, but when it is done, the next one will be worked on automatically. In this way, you can give your planets build orders which will cover several turns. Press the Close button on this window.  
+Image                       := Tutorial_PlanetFacilities.bmp
+
+ID                          := 42
+Series                      := 1
+Segment                     := 42
+Turn                        := 0
+For Players                 := 1
+Text Title                  := Tutorial Completed
+Text Number of Paragraphs   := 1
+Text Paragraph 1            := You have completed the Space Empires IV tutorial. You should continue this game to get an idea of the many features this game offers. For up to date information, please visit our website at www.malfador.com.
+Image                       := Tutorial_End.bmp
+
+=======================================================================================
+*END*
+=======================================================================================

@@ -1,0 +1,344 @@
+<HTML>
+<HEAD>
+   <TITLE>Current Chapter</TITLE>
+</HEAD>
+<BODY BGCOLOR="#000000" LINK="#66FF66" ALINK="#99FF99" VLINK="#00CC00" text="#FFFFFF">
+<p align="left"><font face="Arial, Helvetica, sans-serif" color="#545A8C" size="+3">TCP/IP 
+  Player Window</font></p>
+<center>
+  <p align="left"><img src="screens/TCPIPPlayer.jpg" align=top width="650" height="450"> 
+  </p>
+  <p align="left">&nbsp;</p>
+  <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Description</font> 
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          window allows a player to connect via the TCP/IP protocol to a host 
+          who is running a game of Space Empires IV. This window manages all of 
+          the communication that takes place and shows the player what the current 
+          state of the game is. </font></td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div align="left">
+    <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">How 
+      to get here</font> </div>
+    <div align="left"> 
+      <table width=80%  cellspacing=1  cellpading=2 >
+        <tr valign="top"> 
+          <td width="2%" height="22"></td>
+          <td width="95%" height="22"> 
+            <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">The TCP/IP 
+              Player window is launched when a player selects to begin a new game 
+              as a TCP\IP player. In the <a href="Screen_GameSetupMechanics.htm">Game 
+              Setup - Mechanics Window</a>, if the user selects a play style of 
+              different machines, and a turn style of Simultaneous Movement, then 
+              the Connection Type selection will become enabled. If the user chooses 
+              a connection type of TCP/IP Player, and presses the Begin Game button, 
+              the TCP/IP Player window will be displayed to manage the game. NOTE: 
+              The player of a TCP/IP game does not need to make any changes in 
+              the Game Setup Window. All of the game setting are set by the host 
+              of the game. Also, the player does not need to select their empire 
+              at this point. Once the player has connected to the host, and received 
+              the game setup file, they will come back to the Game Setup Windows 
+              to add their empire to the game. </font></p>
+            </td>
+          <td width="3%" height="22">&nbsp;</td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="22"></td>
+          <td width="95%" height="22">&nbsp;</td>
+          <td width="3%" height="22">&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+    <div align="left"> </div>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Controls</font> 
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 height="49" >
+      <tr valign="top"> 
+        <td width="2%" height="3"></td>
+        <td width="21%" height="3"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Source 
+          IP Address</font></i></td>
+        <td width="77%" height="3"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          is the IP address that will be used for the player's machine. This
+          entry defaults to the players first valid IP Address. If the player wants to, they can
+          press the arrow button and see a list of all of the valid IP Addresses for their machine.
+          The player can select another one if they wish. This will be the address that the Host
+          sends messages to during the game. Most players will not need to change this.</font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="3"></td>
+        <td width="21%" height="3"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Host 
+          IP Address</font></i></td>
+        <td width="77%" height="3"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          is an editable entry of the IP address for the Host machine. The Host 
+          should have already setup the game and be waiting for players to connect 
+          to it. This player should enter the IP address of that Host's unique 
+          address on the internet (or intranet). If the address is incorrect, 
+          the game will let you know when it fails to connect. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Player 
+          Name </font></i></td>
+        <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          is the name of the player for this game. This can be any name you choose 
+          but should be descriptive enough to identify you uniquely. This does 
+          not have to be your empire name. Be sure to remember your player name 
+          as you'll need it if you ever connect back in to this same game. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="22%" height="2"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Status 
+          Display </font></i></td>
+        <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          area displays the current status of communications. Different text messages 
+          will indicate what communication is currently taking place, or what 
+          action is required by the player. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Unknown 
+          Player Name for this game. Please connect again with a different name.&quot; 
+          - If the player is connecting in to a previously started game (a loaded 
+          save game), then they need to use the name of the player they used when 
+          the game was started. If the name does not match, this error will be 
+          displayed indicating that the name is incorrect. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Ready 
+          to connect to host.&quot; - When this window is first launched, this 
+          will be the initial state. It indicates that you can connect to the 
+          host at any time. Pressing the Connect to Host button will begin this 
+          process. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Connecting 
+          to host...&quot; - This message indicates that your game is searching 
+          at the IP address you specified for someone hosting a Space Empires 
+          IV game. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Waiting 
+          for all players to connect to host...&quot; - Once you are connected 
+          to the host, you will have to wait until all of the other players connect 
+          to the host as well. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Waiting 
+          for game setup file from host...&quot; - Once all of the players have 
+          connected for the game, the host will send you the game setup file for 
+          this game. The game setup file contains all of the settings for the 
+          game made by the host in the Game Setup window. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Player 
+          needs to create empire file.&quot; - Once you have received the game 
+          setup file from the host, you will need to add your empire to the game. 
+          Press the Add Empire button to launch the <a href="Screen_GameSetupPlayers.htm">Game 
+          Setup - Players window</a>. This window will allow you to create a new 
+          empire or load an existing empire into this game. You can also look 
+          at the other Game Setup windows to see the settings for this game. When 
+          you have finished adding or creating your empire, press the Begin Game 
+          button at the bottom. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Sending 
+          empire file to host...&quot; - When you finish adding your empire to 
+          the game, it will be saved in an empire file. This file is then sent 
+          to the host for inclusion in the master game file. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Waiting 
+          for game turn file from host...&quot; - Once the host receives your 
+          empire file, he will generate the game turn file. This file is then 
+          sent back to you. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Player 
+          needs to take turn.&quot; - Once you receive the game turn file from 
+          the host, you will be able to take your turn. Press the Play Turn button 
+          to launch the <a href="Screen_MainWin.htm">Main Window</a> to take your 
+          turn. When you have finished your turn, just press the End Turn button 
+          on the main window. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2">&nbsp;</td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" size="-1">&quot;Sending 
+          order file to host...&quot; - When you end your turn, all of your orders 
+          are saved in an order file. This file is then sent to the host so that 
+          he can process the next turn. After you have sent the order file to 
+          the host, you will wait for the next game turn and repeat the process. 
+          </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Chat 
+          Message List </font></i></td>
+        <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          list is normally hidden until the Chat button is pressed. The list displays 
+          the chat messages sent by all of the players (including the host himself). 
+          </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Send 
+          Message </font></i></td>
+        <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          box allows the player to enter chat messages. Once a message has been 
+          entered and the player presses enter, that message will be displayed 
+          in the Chat Message List, and will be sent to all of the players (including 
+          the host). </font></td>
+      </tr>
+    </table>
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="26"></td>
+        <td width="21%" height="26"><i></i></td>
+        <td width="77%" height="26"><font face="Arial, Helvetica, sans-serif"></font></td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Buttons</font> 
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Connect 
+          to Host</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Pressing 
+          this button will cause your game to attempt to conenct to the host game 
+          using the IP Address specified. If it succeeds, then the host will send 
+          you the game setup file and you can proceed playing the game. If it 
+          fails, you will need to enter a different IP Address for the host. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Create 
+          Empire </font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          button is used to create or add your empire into the game. The <a href="Screen_GameSetupPlayers.htm">Game 
+          Setup - Players window</a> will be launched so that you can creat a 
+          new empire, or add an existing empire. All of the settings in the Game 
+          Setup window come from the game setup file the host sent you. You cannot 
+          change any of these settings. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Play 
+          Turn </font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Pressing 
+          this button will display the <a href="Screen_MainWin.htm">Main Window</a> 
+          so that you can take your turn. When you have completed your turn, just 
+          press the End Turn button as you would do normally. You will be returned 
+          to this window and your order file will be sent to the host. You then 
+          wait until the host processes the turn and sends you the next game turn 
+          file. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Chat</font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          button will show or hide the Chat Message List and the Send Message 
+          editbox. These are used to send chat messages to the other players in 
+          the game. Pressing this button while they are visible will cause them 
+          to be hidden and the Host IP Address and Player Name editboxes will 
+          be redisplayed. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Minimize 
+          Game </font></i></td>
+        <td width="77%"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Pressing 
+          this button will minimize the game on the Windows desktop. </font><font color="#FFFFFF"></font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%" height="19"><i><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Quit 
+          Game </font></i></td>
+        <td width="77%" height="19"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This 
+          button will quit the game in progress. You should only do this when 
+          the game has been completed, or the host indicates through chat that 
+          he is going to shut it down for play on another day. </font><font color="#FFFFFF"> 
+          </font></td>
+      </tr>
+    </table>
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%">&nbsp;</td>
+        <td width="77%">&nbsp;</td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Special 
+    Notes</font></div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">None</font></td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Related 
+    Areas</font> </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="12"></td>
+        <td width="95%" height="12"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF"><a href="Screen_TCPIPHost.htm">TCP/IP 
+          Host Window</a>, <a href="Game_TCPIP.htm">TCP/IP Games</a>, <a href="Screen_GameSetupMechanics.htm">Game 
+          Setup - Mechanics Window</a></font></td>
+        <td width="3%" height="12">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+</center>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<P>&nbsp; </P>
+
+</BODY></HTML>

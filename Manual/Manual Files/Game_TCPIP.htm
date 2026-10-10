@@ -1,0 +1,375 @@
+<HTML>
+<HEAD>
+   <TITLE>Current Chapter</TITLE>
+</HEAD>
+<BODY BGCOLOR="#000000" LINK="#66FF66" ALINK="#99FF99" VLINK="#00CC00" text="#FFFFFF">
+
+<p align="left"><font face="Arial, Helvetica, sans-serif" color="#545A8C" size="+3">TCP/IP 
+  Games </font></p>
+<center>
+  <p align="left">&nbsp;</p>
+  <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Description</font> 
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"> 
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">TCP/IP 
+            is a protocol used on the internet (and intranets) to govern communication 
+            between different computers. When you play a Simultaneous Turn game 
+            in Space Empires IV, you have the choice of whether you want to move 
+            the files yourself or use TCP/IP to move the files automatically. 
+            For complete details on how a Simultaneous game works, you should 
+            read the chapter on <a href="Game_SimultaneousGames.htm">Simultaneous 
+            Games</a>. When you setup a game in the <a href="Screen_GameSetupMechanics.htm">Game 
+            Setup - Mechanics Window</a> you will choose the Connection Type. 
+            This indicates if you will be moving the files manually or you'll 
+            be using TCP/IP to move them. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Now there 
+            are pros and cons to each of the different methods of moving files. 
+            When you use TCP/IP, all of the players (people playing the game) 
+            and the host (person who sets up the game and manages it) must be 
+            online at the same time. This means that they must have an active 
+            internet connection (or a connection to an intranet). For the game 
+            to progress, all players must remain online at the same time. If you 
+            move the files yourself, the players do not need to be connected in 
+            any way. For example, the host could email the game files to all of 
+            the players, and then they could take their turn whenever the wished. 
+            Later, the players would email the orders file back to the host who 
+            would process the next turn. Normally, TCP/IP is used for players 
+            who wish to have a quick game, and manual file moving is used for 
+            player who wish to have a long drawn out game. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">In a TCP/IP 
+            game, the host is the central hub of the game. He creates the game, 
+            manages it, and controls its play. The basic routine of play is that 
+            the host will generate a turn, that game turn file will be sent to 
+            each of the players (automatically using TCP/IP), each player will 
+            take his turn (and this will generate an order file), the order file 
+            will be sent to the host, and the host will generate the next turn. 
+            </font></p>
+        </td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+    <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Basic 
+      Elements </font> </div>
+    <div align="left"> 
+      <table width=80%  cellspacing=4  cellpading=2 height="49" >
+        <tr valign="top"> 
+          <td width="2%" height="3"></td>
+          <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Player</font></i></td>
+          <td width="77%" height="3"> 
+            <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Each 
+              individual who controls an empire within the game. Each player 
+              will connect in to the Host over an internet connection and will 
+              play turns of the game. The main interface for a Player in a TCP/IP 
+              game is the <a href="Screen_TCPIPPlayer.htm">TCP/IP Player Window</a>. 
+              </font></p>
+          </td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Host</font></i></td>
+          <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">The 
+            central computer where the turns are processed. The Host can be a 
+            player as well in the game. The Host is the person who creates the 
+            game and has the game master password. The main interface for a Host 
+            in a TCP/IP game is the <a href="Screen_TCPIPHost.htm">TCP/IP Host 
+            Window</a>.</font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Game 
+            Setup File</font></i></td>
+          <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">When 
+            the Host begins a game, the settings he chooses for the game are saved 
+            into a Game Setup File. When the players connect to the Host, they 
+            will receive this file. This file contains settings such as the maximum 
+            number of racial points and empire can spend, how many solar systems 
+            there are, etc. When a player creates his empire (or loads it), it 
+            is restricted by the settings in the Game Setup File. </font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Empire 
+            File </font></i></td>
+          <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Once 
+            players receive the Game Setup File from the Host, they will need 
+            to create their empire for the game. They do this in the <a href="Screen_GameSetupPlayers.htm">Game 
+            Setup - Players Window</a>. They can either create a new empire, or 
+            load an existing empire. When they have finished, the empire will 
+            be saved into an Empire File, and this file will be sent automatically 
+            to the Host. </font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Game 
+            Turn File</font></i></td>
+          <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">When 
+            the Host processes a turn, a Game Turn File is created. This file 
+            is then sent to all of the players in the game. Once a player receives 
+            this file, they can take their turn. (Note: There are actually several 
+            files which make up the game turn file).</font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Orders 
+            File </font></i></td>
+          <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">When 
+            a player takes their turn, they are giving orders to their ships and 
+            planets. When they finish their turn, all of these orders are saved 
+            in an Orders File. This file is then sent to the Host to be included 
+            in the next game processing. </font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">IP 
+            Address </font></i></td>
+          <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Every 
+            machine that has an active internet connection has a unique address 
+            called an IP Address. When Players are connecting in to the host, 
+            they need to enter the IP Address of the host so that TCP/IP can find 
+            them. The current IP Address of the host is displayed on the <a href="Screen_TCPIPHost.htm">TCP/IP 
+            Host Window</a>. </font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Chat</font></i></td>
+          <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">While 
+            a game is in progress, all of the players can talk amongst themselves 
+            using Chat. This is a central message system that allows players to 
+            send messages which are displayed to all of the other players. If 
+            a player has finished his turn and is waiting for the other players 
+            to finish, he can use Chat to communicate with the other players or 
+            the host. </font></td>
+        </tr>
+      </table>
+    </div>
+    <div align="left"> 
+      <table width=80%  cellspacing=1  cellpading=2 >
+        <tr valign="top"> 
+          <td width="2%"></td>
+          <td width="21%">&nbsp;</td>
+          <td width="77%">&nbsp;</td>
+        </tr>
+      </table>
+      <div align="left"> 
+        <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif"></font></div>
+      </div>
+    </div>
+  </div>
+  <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Sequence 
+    Of Events</font> </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 height="49" >
+      <tr valign="top"> 
+        <td width="2%" height="3"></td>
+        <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Host 
+          creates game</font></i></td>
+        <td width="77%" height="3"> 
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">This Host 
+            starts Space Empires IV and selects New Game. He then sets all of 
+            the game settings that should pertain to this game and does not add 
+            any empires. He then goes to the <a href="Screen_GameSetupMechanics.htm">Game 
+            Setup - Mechanics Window</a> and selects Different Machines, Simultaneous 
+            Movement, and TCP/IP Host. He also enters a game name for this Multiplayer 
+            game. He presses Begin Game. The <a href="Screen_TCPIPHost.htm">TCP/IP 
+            Host Window</a> is displayed. The Host waits for the players to connect. 
+            </font></p>
+        </td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Players 
+          start game</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Each 
+          of the Players starts Space Empires IV and selects New Game. They immediately 
+          go to the <a href="Screen_GameSetupMechanics.htm">Game Setup - Mechanics 
+          Window</a> and select Different Machines, Simultaneous Movement, and 
+          TCP/IP Player. They press Begin Game and the <a href="Screen_TCPIPPlayer.htm">TCP/IP 
+          Player Window</a> is displayed. They enter the IP address of the host, 
+          their player name, and press the Connect To Host button. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Players 
+          connect to Host</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">The 
+          host will see the players added to the Players List on the <a href="Screen_TCPIPHost.htm">TCP/IP 
+          Host Window</a>. Once all of the players have connected, he presses 
+          the Begin Game button. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Host 
+          sends Game Setup File to Players</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">The 
+          Game Setup File is automatically sent to each of the Players. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Players 
+          create their Empires</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Once 
+          the Game Setup file has been received by the Player, they should press 
+          the Create Empire button. The <a href="Screen_GameSetupPlayers.htm">Game 
+          Setup - Players Window</a> will be displayed to allow them to add their 
+          empire to the game. They finish by pressing the Begin Game button. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Players 
+          send their Empire Files to the Host</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Each 
+          Player's empire file is sent to the Host. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Host 
+          generates the first turn</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Once 
+          all of the Player's empire files have been received by the host (as 
+          indicated on the Player List), the Host presses the Process Turn button. 
+          </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Host 
+          sends Game Turn File to Players</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">When 
+          processing of the turn is complete, the Game Turn File will automatically 
+          be sent to each of the Players. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Players 
+          take their turn</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">The 
+          Players receive the Game Turn File and then press the Play Turn button. 
+          This will display the <a href="Screen_MainWin.htm">Main Window</a> for 
+          them to take their turn. When they are finished they press the End Turn 
+          button. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Players 
+          send Orders File to Host</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">The 
+          Player's Orders File is sent automatically to the Host. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Host 
+          generates the next turn</font></i></td>
+        <td width="77%" height="2"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">The 
+          Host receives all of the Player's Orders File and then presses the Process 
+          Turn button. This process continues with the &quot;Host sends Game Turn 
+          File to Players&quot; step. </font></td>
+      </tr>
+    </table>
+  </div>
+  <div align="left">
+<table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%">&nbsp;</td>
+        <td width="77%">&nbsp;</td>
+      </tr>
+    </table>
+    <div align="left">
+      <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Saving 
+        a game in progress</font></div>
+    </div>
+    <div align="left"> 
+      <table width=80%  cellspacing=1  cellpading=2 >
+        <tr valign="top"> 
+          <td width="2%" height="22"></td>
+          <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">If, 
+            at some time, the players agree to stop the game and continue it again 
+            later, the Host can select Quit Game. Since the Game Turn File is 
+            saved each time it is processed, the Host does not need to explicitly 
+            save the game. </font></td>
+          <td width="3%" height="22">&nbsp;</td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="22"></td>
+          <td width="95%" height="22">&nbsp;</td>
+          <td width="3%" height="22">&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+    <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Loading 
+      a previous TCP/IP game</font> </div>
+    <div align="left"> 
+      <table width=80%  cellspacing=1  cellpading=2 >
+        <tr valign="top"> 
+          <td width="2%" height="22"></td>
+          <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">When 
+            the host and players wish to continue a saved TCP/IP game, the Host 
+            needs to start Space Empires IV and select Load Game. After selecting 
+            the savegame from the list, he will be asked if he wishes to continue 
+            the game as a TCP/IP Host. If he selects Yes, then the <a href="Screen_TCPIPHost.htm">TCP/IP 
+            Host Window</a> will be displayed. Players should start their game 
+            as they normally would for a TCP/IP game, and then connect in to the 
+            Host. The Host will automatically send them the current Game Turn 
+            File, at which point the Players can take their next turn. After that, 
+            the routine is the same as described above. </font></td>
+          <td width="3%" height="22">&nbsp;</td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="22"></td>
+          <td width="95%" height="22">&nbsp;</td>
+          <td width="3%" height="22">&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Special 
+    Notes</font></div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">None</font></td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Related 
+    Areas</font> </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="12"></td>
+        <td width="95%" height="12"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF"><a href="Screen_TCPIPPlayer.htm">TCP/IP 
+          Player Window</a>, <a href="Screen_TCPIPHost.htm">TCP/IP Host Window</a>, 
+          <a href="Game_SimultaneousGames.htm">Simultaneous Games</a>, <a href="Screen_GameSetupMechanics.htm">Game 
+          Setup - Mechanics Window</a></font></td>
+        <td width="3%" height="12">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+</center>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<P>&nbsp; </P>
+
+</BODY></HTML>

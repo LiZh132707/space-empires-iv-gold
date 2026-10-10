@@ -1,0 +1,366 @@
+<HTML>
+<HEAD>
+   <TITLE>Current Chapter</TITLE>
+</HEAD>
+<BODY BGCOLOR="#000000" LINK="#66FF66" ALINK="#99FF99" VLINK="#00CC00" text="#FFFFFF">
+
+<p align="left"><font face="Arial, Helvetica, sans-serif" color="#545A8C" size="+3">Simultaneous 
+  Games </font></p>
+<center>
+  <p align="left">&nbsp;</p>
+  <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Description</font> 
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"> 
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Simultaneous 
+            Games work a little different than Turn-Based games. Every player 
+            takes their turn at the same time as the other players (if on different 
+            machines). Players can only give orders to their ships, they will 
+            not move. Movement for all players is executed at the same time after 
+            all of the players have taken their turns. Combat which occurs is 
+            resolved automatically by the computer and no Tactical Combat is allowed. 
+            </font></p>
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">If a Simultenaeous 
+            game is played on the same machine, then each player will take turns 
+            playing their turn, but movement will still occur after they have 
+            all finished. </font></p>
+        </td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Elements 
+    </font> </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=4  cellpading=2 height="49" >
+      <tr valign="top"> 
+        <td width="2%" height="3"></td>
+        <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Players 
+          </font></i></td>
+        <td width="77%" height="3"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">A 
+          simultaneous games still has players like a normal game. Each player 
+          will take their turn and then send their player file in to the host. 
+          When a player wants to play their turn, they will load the game file 
+          and then login as the empire that they play. </font></td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="3"></td>
+        <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Host 
+          </font></i></td>
+        <td width="77%" height="3"> 
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">A new concept 
+            in a simultaneous game is that of a Host. The host is the person that 
+            sets up the game and who executes the movement of ships. A host can 
+            be a player, or can be an automated process. The Host is merely whatever 
+            executes the end of turn processing. </font></p>
+        </td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="224"></td>
+        <td width="21%" height="224"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Game 
+          Setup </font></i></td>
+        <td width="77%" height="224"> 
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">When the 
+            game is first setup, the game needs to be selected as a simultaneous 
+            game in the <a href="Screen_GameSetupMechanics.htm">Mechanics</a> 
+            section. The Host (or whomever sets up the game) should come up with 
+            the settings for the game and then let all of the players know what 
+            they are. This would be things such as galaxy size, racial points 
+            available, number of starting planets, etc. </font></p>
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Each player 
+            would then create their empire (.emp) using these settings (or use 
+            an existing empire) and send them to the host (this can be done through 
+            email, ftp, whatever). The host will create the game and add each 
+            of these empire to it. When he starts the game, it will immediately 
+            be saved (using the filename entered in the multiplayer game name). 
+            The host will then send this game file (.gam) to each of the players. 
+            </font></p>
+        </td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Transferring 
+          Files </font></i></td>
+        <td width="77%" height="2"> 
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">A player 
+            who receives a game file should place it in the savegame directory. 
+            They can then start Space Empires IV and load the savegame. The game 
+            will prompt them to login as a given player. If the empire was created 
+            with a password (highly recommended) then the player must enter that 
+            password to login. Now the player can play out the current turn of 
+            the game. They can do everything as in a normal game, except that 
+            the ships will not execute the orders. Players can only give the ships 
+            orders at this point. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">When the 
+            player completes their turn, the players changes (orders) will be 
+            saved as a file (.plr). The player should then send this file in to 
+            the Host. The Host will collect all of the player's files and put 
+            them in the savegame directory with the existing savegame file for 
+            the game. The Host runs Space Empires IV, loads the savegame, and 
+            then logs in as the Host (this will require the game password). When 
+            the Host presses the End Turn button, the game will add the player's 
+            orders into the game, and then execute simultaneous movement for all 
+            ships. When this process completes, the game will be saved once again 
+            (and all of the player files will have been deleted). Now the Host 
+            sends this savegame (Gam) file back out to all of the players and 
+            the process repeats. </font></p>
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">If the 
+            game is being played on the same machine (all players on the same 
+            machine), no files need to be transferred. Also, the execution of 
+            the host is automatic as well. </font></p>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Sequence 
+          of Events</font></i></td>
+        <td width="77%" height="2"> 
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">1. Game 
+            Host comes up with the settings for a new game. The most important 
+            facts about this game are the number of racial points that the players 
+            have to spend. </font></p>
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">2. Host 
+            tells all of the players about the game settings. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">3. Each 
+            player creates an empire based on these settings. They save the empire 
+            file and send it in to the Host. If players are using a custom race 
+            style (picture set), then they need to send this to the host as well. 
+            </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">4. The 
+            Host gathers all of the player files together into the savegame directory. 
+            The Host then creates the game, adds the empires into it, and the 
+            game is saved to a file. The Host sends this file (and any custom 
+            race styles for the players) to every player in the game. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">5. Each 
+            player receives the game file (Gam) from the host and puts it into 
+            their savegame directory. They run the program, and load the savegame. 
+            They login as their empire, and play their turn. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">6. When 
+            they have finished their turn, the game will create a player changes 
+            file (.plr). This file is then sent in to the Host. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">7. The 
+            Host receives the player changes files from each of the players. If 
+            a player does not send in their file, this is not a problem. The game 
+            will automatically have the AI control any player that did not supply 
+            a player changes file. The Host runs the game, loads the savegame, 
+            and the presses End Turn. When he does, the game will load all of 
+            the player changes files, and then process the movement for all of 
+            the players. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">8. When 
+            the processing completes, the Host will send the new game file (Gam) 
+            to each of the players. This process then begins again at item number 
+            5. </font></p>
+        </td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Orders 
+          </font></i></td>
+        <td width="77%" height="2">
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">On a player's 
+            turn, they can only give orders to their planet and ships. For some 
+            things, this is instantaneous such as transferring cargo or renaming 
+            something. The player can also freely change any research projects, 
+            intelligence projects, send messages, or change construction queues. 
+            However, none of the ships they give orders to will actually move. 
+            Anything that uses movement points will not move until the host executes 
+            the movement. </font></p>
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Keep in 
+            mind that all movement is Simultaneous. This means that your ships 
+            will move at the same time as enemy ships. This is fundamentally different 
+            than a Turn-Based game. In a Turn-Based game, the enemy could not 
+            run away while you were moving your ships. You need to plan your strategy 
+            around the fact that they may move somewhere else when you are moving 
+            towards them. </font></p>
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">To help 
+            with this, the Attack Order changes slightly in a Simultaneous game. 
+            When you give the attack order, your ship will seek after its target 
+            during movement. It will change course as needed to that the target 
+            does not get away. This is much better than a Move To in that this 
+            takes into account a moving target, while Move To will just send you 
+            to a location.</font></p>
+        </td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Movement</font></i></td>
+        <td width="77%" height="2">
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Simultaneous 
+            movement is played out of 30 days during a single month (turn). Each 
+            ship movement is converted into different days that they will get 
+            to move. So if your ship has 5 movement points, then it will get to 
+            move once every 6 days during the month. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">When the 
+            savegame is returned to you as a player, you can replay the movement 
+            of all of the ships that has taken place. See the <a href="Screen_MainWin_Command.htm">Command</a> 
+            panel for more details. </font></p>
+        </td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Combat 
+          </font></i></td>
+        <td width="77%" height="2">
+          <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Combat 
+            occurs in simultaneous movement when enemy ships are at the same location. 
+            However, unlike Turn-Based movement, combat will only occur every 
+            5 days at a given location. So even though your ship may move into 
+            the same location as an enemy, unless its a 5th day of the month, 
+            combat will not occur. </font></p>
+          <p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">For example, 
+            your ship moves into a location with an enemy on the 3rd day of the 
+            month. If both of your ships are still in the same place on the 5th 
+            day of the month, then combat will occur. Combat can possible occur 
+            6 times for a given location in one month (turn). The result of the 
+            combat will be reported to you in a <a href="Screen_Log.htm">Log</a> 
+            report. </font></p>
+        </td>
+      </tr>
+      <tr valign="top"> 
+        <td width="2%" height="2"></td>
+        <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">Command 
+          Line </font></i></td>
+        <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">As 
+          the Host, you can execute the game by running it, and then loading the 
+          savegame, and then pressing End Turn. You can also automate the process 
+          by using command line options for the game. If you run the program se4.exe 
+          you can supply 2 command line parameters. The first is the exact path 
+          to the savegame file, the second is the password for the game. If the 
+          parameters are valid, the game will execute silently, and when finished 
+          will generate a new game file. </font></td>
+      </tr>
+    </table>
+  </div>
+  <div align="left">
+<table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%"></td>
+        <td width="21%">&nbsp;</td>
+        <td width="77%">&nbsp;</td>
+      </tr>
+    </table>
+    <div align="left"><font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">File 
+      Types </font> </div>
+    <div align="left"> 
+      <table width=80%  cellspacing=4  cellpading=2 height="49" >
+        <tr valign="top"> 
+          <td width="2%" height="3"></td>
+          <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">.emp 
+            </font></i></td>
+          <td width="77%" height="3"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">An 
+            empire file. This contains a detailed description of an empire for 
+            use in a game. </font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="3"></td>
+          <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">.Gam 
+            </font></i></td>
+          <td width="77%" height="3"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">The 
+            game file. This is the file that runs the entire game. </font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="3"></td>
+          <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">.plr 
+            </font></i></td>
+          <td width="77%" height="3"> 
+            <p><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">The player 
+              changes file. This file contains all of the changes that a player 
+              makes on their turn. This needs to be sent in to the host. </font></p>
+          </td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">.trn</font></i></td>
+          <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">A 
+            turn log file. This file is return to the players by the host and 
+            allows them to view the movement replay for the turn. </font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">.cmb 
+            </font></i></td>
+          <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">A 
+            combat log file. This file is returned to the players by the host 
+            and allows them to view the combat replay for the turn. </font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="3"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">_events.txt 
+            </font></i></td>
+          <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">An 
+            events file. When a player goes into the <a href="Screen_History.htm">History 
+            Window</a>, they are viewing the contents of this file. The host should 
+            send this file to the specific player it is for with the game file 
+            each turn. </font></td>
+        </tr>
+        <tr valign="top"> 
+          <td width="2%" height="2"></td>
+          <td width="21%" height="2"><i><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">_stats.txt 
+            </font></i></td>
+          <td width="77%" height="2"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">A 
+            statistics file. When a player goes into the <a href="Screen_Comparisons.htm">Comparisons 
+            Window</a>, they are viewing the contents of this file. The host should 
+            send this file to the specific player it is for with the game file 
+            each turn. </font></td>
+        </tr>
+      </table>
+    </div>
+    <div align="left"> 
+      <table width=80%  cellspacing=1  cellpading=2 >
+        <tr valign="top"> 
+          <td width="2%"></td>
+          <td width="21%">&nbsp;</td>
+          <td width="77%">&nbsp;</td>
+        </tr>
+      </table>
+      
+    </div>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Special 
+    Notes</font></div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">None</font></td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="22"></td>
+        <td width="95%" height="22">&nbsp;</td>
+        <td width="3%" height="22">&nbsp;</td>
+      </tr>
+    </table>
+    <font size=+2 color="#545A8C" face="Arial, Helvetica, sans-serif">Related 
+    Areas</font> </div>
+  <div align="left"> 
+    <table width=80%  cellspacing=1  cellpading=2 >
+      <tr valign="top"> 
+        <td width="2%" height="12"></td>
+        <td width="95%" height="12">&nbsp;</td>
+        <td width="3%" height="12">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+</center>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<P>&nbsp; </P>
+
+</BODY></HTML>

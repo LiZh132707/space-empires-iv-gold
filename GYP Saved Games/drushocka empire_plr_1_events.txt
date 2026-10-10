@@ -1,0 +1,43 @@
+   24019    6    0    0 Contact established.
+   24021    6    0    0 Non-Aggression established.
+   24022    6    0    0 Trade Alliance established.
+   24027    6    0    0 Trade and Research Alliance established.
+   24032    7    0    0 Contact established.
+   24042    9    0    0 Contact established.
+   24043    9    0    0 Non-Aggression established.
+   24044    9    0    0 Trade Alliance established.
+   24045    6    0    0 War breaks out.
+   24046    5    0    0 Contact established.
+   24048    7    0    0 Trade Alliance established.
+   24050    7    0    0 War breaks out.
+   24053    5    0    0 Trade Alliance established.
+   24056   10    0    0 Contact established.
+   24057   10    0    0 Empire destroyed.
+   24065    6    0    0 Empire destroyed.
+   24074    5    0    0 Trade and Research Alliance established.
+   24077    5    0    0 Partnership established.
+   24081    5    0    0 War breaks out.
+   24081    9    0    0 War breaks out.
+   24082    9    0    0 Empire destroyed.
+   24091    8    0    0 Contact established.
+   24091    8    0    0 War breaks out.
+   24093    8    0    0 Empire destroyed.
+   24095    2    0    0 Contact established.
+   24096    2    0    0 War breaks out.
+   24097    4    0    0 Contact established.
+   24099    4    0    0 War breaks out.
+   24113    5    0    0 Empire destroyed.
+   24113    7    0    0 Empire destroyed.
+   24116    3    0    0 Contact established.
+   24117    3    0    0 War breaks out.
+   24037    6    0    0 Contact established.
+   24038    6    0    0 War breaks out.
+   24056    5    0    0 Contact established.
+   24063    5    0    0 Trade Alliance established.
+   24066    5    0    0 Trade and Research Alliance established.
+   24069    5    0    0 Military Alliance established.
+   24071    5    0    0 Partnership established.
+   24083    4    0    0 Contact established.
+   24086    4    0    0 Non-Aggression established.
+   24088    4    0    0 Trade Alliance established.
+   24101    4    0    0 Trade and Research Alliance established.
